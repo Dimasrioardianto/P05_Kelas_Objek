@@ -1,8 +1,8 @@
 class Point {
   int x;
-  int y ;
-
-  void setLocation(int xValue, int yValue) {
+  int y ;//atribut,variabel
+  //fungsi void
+  void setLocation(int xValue, int yValue) {//function(metode)
     x = xValue;
     y = yValue;
   }

@@ -1,11 +1,8 @@
 class Point {
-    int x;
-    int y;
+    int? x;
+    int? y;
 
-    Point(x, y) {
-        this.x = x;
-        this.y = y;
-    }
+   Point({this.x, this.y});//beda parameter nama yaitu kurung kurawa
 
     void setLocation(int xValue, int yValue) {
         this.x = xValue;
@@ -15,7 +12,7 @@ class Point {
 
 void main(List<String> args) {
     Point a;
-    a = new Point(2, 3);
+    a = new Point(x: 2);
     print('Sebelum diubah:');
     print('Titik a terletak di koordinat (${a.x}, ${a.y})');
     a.setLocation(4, 5);

@@ -25,5 +25,5 @@ void main(List<String> args) {
   print(boxDateTime.getData('123').toString());
 
   var bayu = SecureBox<Person>(Person('Bayu'), '123');
-  print(bayu.getData('123').name);
+  print(bayu.getData('123')!.name);
 }

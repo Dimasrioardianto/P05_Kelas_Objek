@@ -9,7 +9,6 @@ class Point {
     this.y = yValue;
   }
 }
-
 void main(List<String> args) {
   Point a = Point(2);
 
